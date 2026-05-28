@@ -18,8 +18,8 @@ El dashboard permite explorar y comparar el bienestar de más de 150 naciones a 
 - **React + TypeScript** — interfaz de usuario y componentes
 - **Vite** — entorno de desarrollo
 - **Firebase Firestore** — almacenamiento y consumo de datos
-- **Recharts** — gráficos interactivos
-- **Tailwind CSS** — estilos
+- **MUI (Material UI)** — componentes de interfaz y layout
+- **MUI X Charts** — gráficos interactivos
 
 ## Funcionalidades del dashboard
 
