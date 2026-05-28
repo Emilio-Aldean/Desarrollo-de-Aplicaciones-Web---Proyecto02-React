@@ -107,12 +107,12 @@ function App() {
               <TimeEvolutionChart data={filtered} />
             </Box>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid size={{ xs: 12, md: 7 }}>
             <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1 }}>
               <RegionChart data={filtered} />
             </Box>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid size={{ xs: 12, md: 5 }}>
             <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1 }}>
               <ScatterPlotChart data={filtered} />
             </Box>
