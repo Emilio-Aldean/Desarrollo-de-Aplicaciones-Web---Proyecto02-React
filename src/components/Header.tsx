@@ -28,7 +28,7 @@ export default function Header({
   return (
     <AppBar position="static" sx={{ backgroundColor: '#1e3a5f' }}>
       <Toolbar sx={{ justifyContent: 'space-between' }}>
-        <Typography variant="h6" fontWeight="bold">
+        <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
           🌍 World Happiness Dashboard
         </Typography>
         <Box sx={{ display: 'flex', gap: 2 }}>
