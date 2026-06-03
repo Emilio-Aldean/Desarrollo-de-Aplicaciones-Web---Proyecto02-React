@@ -43,7 +43,7 @@ export default function RegionChart({ data }: Props) {
       </Typography>
       <BarChart
         layout="horizontal"
-        height={320}
+        height={340}
         series={[{ data: averages, label: 'Promedio', color: '#c62828' }]}
         yAxis={[{ scaleType: 'band', data: labels, tickLabelStyle: { fontSize: 10 } }]}
         margin={{ left: 150, right: 20, top: 20, bottom: 30 }}

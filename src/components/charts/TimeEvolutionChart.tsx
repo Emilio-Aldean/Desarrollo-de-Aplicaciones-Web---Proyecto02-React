@@ -21,7 +21,7 @@ export default function TimeEvolutionChart({ data }: Props) {
         Evolución Temporal de la Felicidad Global
       </Typography>
       <LineChart
-        height={300}
+        height={340}
         series={[{ data: avgByYear, label: 'Promedio Global', color: '#2e7d32' }]}
         xAxis={[{ scaleType: 'point', data: years.map(String) }]}
         margin={{ left: 50, right: 30, top: 20, bottom: 40 }}

@@ -96,24 +96,24 @@ function App() {
           </Box>
         )}
 
-        <Grid container spacing={3}>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1 }}>
+        <Grid container spacing={3} sx={{ alignItems: 'stretch' }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex' }}>
+            <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1, flex: 1 }}>
               <TopCountriesChart data={filtered} />
             </Box>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1 }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex' }}>
+            <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1, flex: 1 }}>
               <TimeEvolutionChart data={filtered} />
             </Box>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1 }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex' }}>
+            <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1, flex: 1 }}>
               <RegionChart data={filtered} />
             </Box>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1 }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ display: 'flex' }}>
+            <Box sx={{ backgroundColor: 'white', p: 2, borderRadius: 2, boxShadow: 1, flex: 1 }}>
               <ScatterPlotChart data={filtered} />
             </Box>
           </Grid>

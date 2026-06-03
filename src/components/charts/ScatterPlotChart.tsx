@@ -20,7 +20,7 @@ export default function ScatterPlotChart({ data }: Props) {
         PIB per cápita vs. Happiness Score
       </Typography>
       <ScatterChart
-        height={300}
+        height={340}
         series={[{ data: points, label: 'País', color: '#f57c00' }]}
         xAxis={[{ label: 'GDP per Capita' }]}
         yAxis={[{ label: 'Happiness Score' }]}
