@@ -1,6 +1,6 @@
 # World Happiness Dashboard
 
-Dashboard interactivo para la exploración, visualización e interpretación de datos del **World Happiness Report** (2015–2023), desarrollado como Proyecto 02 de la asignatura Desarrollo de Aplicaciones Web.
+Dashboard interactivo para la exploración, visualización e interpretación de datos del **World Happiness Report** (2015–2019), desarrollado como Proyecto 02 de la asignatura Desarrollo de Aplicaciones Web.
 
 ## Descripción
 
@@ -9,7 +9,7 @@ El dashboard permite explorar y comparar el bienestar de más de 150 naciones a 
 ## Dataset
 
 - **Fuente:** [World Happiness Report — Kaggle](https://www.kaggle.com/datasets/unsdsn/world-happiness)
-- **Cobertura:** 150+ países, años 2015–2023
+- **Cobertura:** 150+ países, años 2015–2019
 - **Variables categóricas:** Country, Region, Year
 - **Variables numéricas:** Happiness Score, GDP per capita, Social Support, Healthy Life Expectancy, Freedom, Generosity, Perceptions of Corruption
 
@@ -25,7 +25,7 @@ El dashboard permite explorar y comparar el bienestar de más de 150 naciones a 
 
 - Filtros interactivos por **Región** y **Año**
 - 5 indicadores KPI: Felicidad Promedio, País Más Feliz, País Menos Feliz, Región Líder, Total de Países
-- Gráfico de barras horizontales: Top 10 países por felicidad
+- Gráfico de barras: Top 5 países por felicidad
 - Gráfico de líneas: Evolución temporal del bienestar global
 - Gráfico de barras: Felicidad promedio por región
 - Gráfico de dispersión: PIB per cápita vs. Happiness Score
@@ -55,13 +55,13 @@ src/
 │   │   ├── TopCountriesChart.tsx
 │   │   ├── TimeEvolutionChart.tsx
 │   │   ├── RegionChart.tsx
-│   │   └── ScatterChart.tsx
+│   │   └── ScatterPlotChart.tsx
 ├── firebase/
 │   └── config.ts
 ├── hooks/
 │   └── useHappinessData.ts
 ├── types/
-│   └── index.ts
+│   └── DashboardTypes.ts
 └── App.tsx
 ```
 
